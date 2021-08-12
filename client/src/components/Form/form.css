@@ -57,4 +57,14 @@ textarea {
   width: 101%;
   height: 5vh;
   font-size: large;
+  background-color: green;
+  color: white;
+  border: solid 1px white;
+}
+
+.Form-Container button:hover {
+  transition: all 0.4s;
+  background-color: lightgreen;
+  color: green;
+  cursor: pointer;
 }

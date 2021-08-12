@@ -1,0 +1,60 @@
+.Container {
+  background-image: url("https://www.quossl.es/wp-content/uploads/2014/12/fondo_web-desarrollo-software.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 0;
+}
+.Title {
+  padding-left: 10%;
+  padding-top: 2%;
+  margin-top: 0;
+  font-size: 2vw;
+  color: white;
+}
+.Form-Container {
+  padding-left: 20%;
+  font-size: 1.2vw;
+  width: 60%;
+  color: white;
+}
+
+.Nombre {
+  display: flex;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.Nombre div {
+  width: 100%;
+}
+
+.Nombre div:last-child {
+  padding-left: 20px;
+}
+
+.Nombre input {
+  width: 100%;
+}
+
+.Form-Container input,
+textarea {
+  font-size: 1.5vw;
+}
+
+#Email,
+#RUT,
+#Pais {
+  width: 70%;
+}
+
+.Form-Container textarea {
+  width: 100%;
+}
+
+.Form-Container button {
+  margin-top: 2vh;
+  width: 101%;
+  height: 5vh;
+  font-size: large;
+}
